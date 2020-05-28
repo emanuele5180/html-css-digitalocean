@@ -4,9 +4,14 @@
 
 /* dimensione container */
 .container {
-  max-width: 1170px;
+  /* max-width: 1170px; */
   margin:0 auto;
-  padding: 0 5%;
+  padding: 0 10%;
+
+  /* default */
+  min-height: 50px;
+  background-color: lightblue;
+
 
 }
 
@@ -19,13 +24,14 @@
 
 /*float applicato a tutte le classi che iniziano per col- */
 
- /* [class*="col-"] { */
-  /* float: left; */
-  /* height: 150px;
+ [class*="col-"] {
+  float: left;
+  width: 100%;
+  height: 150px;
   background-color: red;
   border: 1px solid black;
 
-} */
+}
 
 
 
