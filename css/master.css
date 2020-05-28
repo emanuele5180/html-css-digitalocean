@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* nav */
+.bg_nav{
+  background-color: white
+}
+
+/* jumbo */
+
+.bg_jumbo {
+  background-image:url(../img/jumbo.svg);
+}
+
+/* partners */
+.partners {
+  background-color: lightgrey;
+  min-height: 50px;
+}
+
+/* deploy and scale */
+
+/* carousel */
+
+.carousel_mode {
+  background-color: lightgrey;
+}
+
+/* features for business  */
+
+/* tabella */
+.dodiciregion {
+  background-color: blue;
+}
+
+/* carousel n2  */
+
+ .createaccount {
+   background-color: blue;
+ }
