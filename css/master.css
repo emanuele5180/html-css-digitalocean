@@ -7,8 +7,45 @@
 
 /* nav */
 .bg_nav{
-  background-color: white
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  z-index: 999;
 }
+
+/* logo navbar details  */
+.logo_position a img{
+  height: 50px;
+}
+
+.logo_position .logo_ocean {
+  height: 30px;
+}
+
+.nav_centrale li, .nav_destra li {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.nav_centrale li a, .nav_destra li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+.nav_destra li .SignUpbutton {
+  color: #1b00ff;
+  padding:5px 10px;
+  margin-left: 10px;
+  border: 1px solid #1b00ff;
+  border-radius: 5px;
+}
+
+.nav_destra {
+  text-align: right;
+}
+
 
 /* jumbo */
 
