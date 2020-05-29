@@ -51,7 +51,23 @@
 
 .bg_jumbo {
   background-image:url(../img/jumbo.svg);
+  padding-top: 50px;
+  height: 500px;
+
 }
+
+.bg_jumbo h1 {
+  margin-top: 50px;
+  font-size: 4em;
+  color: white;
+}
+
+.bg_jumbo p {
+  color: #d2cccc;
+  font-size: 23px;
+  margin-top: 15px;
+}
+
 
 /* partners */
 .partners {
