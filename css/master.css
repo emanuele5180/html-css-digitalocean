@@ -46,6 +46,19 @@
   text-align: right;
 }
 
+.hamburger_icon {
+  display: none;
+}
+
+@media all and ( max-width: 992px ) {
+  .hamburger_icon {
+    display: block;
+  }
+  .nav_destra, .nav_centrale {
+    display:none;
+  }
+}
+
 
 /* jumbo */
 
