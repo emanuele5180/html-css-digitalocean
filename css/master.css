@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
-
+.section_title {
+  color: darkblue;
+  font-size: 35px;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
 /* nav */
 .bg_nav{
   width: 100%;
@@ -108,6 +113,7 @@ form {
 
 .bg_form h3 a {
   text-decoration: none;
+  color: blue;
 }
 
 .bg_form form input {
@@ -170,6 +176,39 @@ form {
 
 }
 /* deploy and scale */
+
+
+
+.deploy .deploy_subt{
+  color: grey;
+  font-size: 20px;
+  text-align:center;
+  margin-bottom: 70px;
+}
+
+.deploy_list li{
+  list-style: none;
+  padding: 15px 0 10px 5px;
+  border-left: solid 1px grey ;
+}
+
+.deploy_list li a{
+  color:grey;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cluster_deployments h4, .one_click_apps h4, .optimized_compute h4, .global_availability h4 {
+  color: darkblue;
+  font-size: 17px;
+  padding: 10px 0;
+
+}
+
+.cluster_deployments p, .one_click_apps p, .optimized_compute p, .global_availability p{
+  color: grey;
+  padding: 10px 0 20px 0;
+}
 
 
 
