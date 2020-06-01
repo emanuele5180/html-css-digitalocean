@@ -186,6 +186,10 @@ form {
   margin-bottom: 70px;
 }
 
+.deploy_list {
+  padding-left: 100px;
+}
+
 .deploy_list li {
   list-style: none;
   padding: 15px 0 10px 5px;
@@ -224,6 +228,7 @@ form {
 
 .carousel_mode {
   background-color: #f3f5f9;
+  text-align: center;
 
 }
 
@@ -240,7 +245,7 @@ form {
 }
 
 
-#carousel_img {
+.carousel_img {
   height: 300px;
   width: auto;
 
@@ -258,37 +263,87 @@ form {
 .dots {
   text-align: center;
   color: blue;
-  
-
 }
 
 /* features for business  */
 
+.feature_left,.feature_centre,.feature_right {
+  min-height: 200px;
+}
+
 /* tabella */
 .dodiciregion {
   background-color: blue;
+  text-align: center;
+  color: white;
 }
+
+.tabella {
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+/* .dodiciregion tr {
+  width: 100%;
+  border-bottom: solid 2px white;
+
+}
+
+.dodiciregion tr td{
+  padding: 5px;
+  width:33.3%;
+  color: red;
+
+} */
+
 
 /* carousel n2  */
-
-.carousel_mode {
-  background-color: #f3f5f9;
-}
-
-
-
-
 
 
 /* create account */
 
 .createaccount {
-  background-color: blue;
+  background-color: #2b2bcc;
+  text-align: center;
+  color: white
+}
+
+.createbutton {
+  min-height: 30px;
+  margin: 20px 0 50px 0;
+}
+
+.createaccount h3 {
+  font-size: 28px;
+  padding: 50px 0 15px 0;
+}
+
+.createbutton a{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  color: #4075ec;
+  text-decoration: none;
+
 }
 
 /* footer */
 
 .footer {
   background-color: darkblue;
+  color: lightblue;
+}
+
+.footer h5 {
+  font-size: 20px;
+  color: white;
+  padding: 50px 0 10px 0;
+}
+
+.footer a {
+  display:block;
+  padding: 0 0 10px 0;
+  color: lightblue;
+  text-decoration: none;
 
 }
