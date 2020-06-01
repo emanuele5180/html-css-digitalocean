@@ -186,16 +186,22 @@ form {
   margin-bottom: 70px;
 }
 
-.deploy_list li{
+.deploy_list li {
   list-style: none;
   padding: 15px 0 10px 5px;
   border-left: solid 1px grey ;
+
 }
 
 .deploy_list li a{
   color:grey;
   font-size: 18px;
   text-decoration: none;
+
+}
+
+.cluster_deployments , .one_click_apps , .optimized_compute , .global_availability {
+  padding-right: 20px;
 }
 
 .cluster_deployments h4, .one_click_apps h4, .optimized_compute h4, .global_availability h4 {
@@ -208,7 +214,9 @@ form {
 .cluster_deployments p, .one_click_apps p, .optimized_compute p, .global_availability p{
   color: grey;
   padding: 10px 0 20px 0;
+  min-height: 10px;
 }
+
 
 
 
@@ -216,6 +224,42 @@ form {
 
 .carousel_mode {
   background-color: #f3f5f9;
+
+}
+
+.carousel_mode  .section_subt{
+  color: grey;
+  font-size: 20px;
+  text-align:center;
+  margin-bottom: 70px;
+}
+
+.main_carousel {
+  text-align: center;
+  min-width: 200px;
+}
+
+
+#carousel_img {
+  height: 300px;
+  width: auto;
+
+}
+
+.sub_carousel {
+  text-align: center;
+  color: #0557d2;
+  padding:10px;
+  font-size: 15px;
+
+
+}
+
+.dots {
+  text-align: center;
+  color: blue;
+  
+
 }
 
 /* features for business  */
@@ -230,6 +274,8 @@ form {
 .carousel_mode {
   background-color: #f3f5f9;
 }
+
+
 
 
 
