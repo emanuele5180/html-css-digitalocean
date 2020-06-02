@@ -30,6 +30,7 @@
 
 .logo_position .logo_ocean {
   height: 30px;
+  margin:0 auto;
 }
 
 .nav_centrale li, .nav_destra li {
@@ -59,15 +60,22 @@
   display: none;
   line-height: 50px;
   text-align: right;
+  position: relative;
 }
 
-.hamburger_icon i:hover .cascade_menu{
+.hamburger_icon:hover .cascade_menu{
   display: block;
-
 }
 
 .cascade_menu {
   display:none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  text-align: left;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1%;
 
 }
 
@@ -276,6 +284,7 @@ form {
 .carousel_img {
   height: 300px;
   width: auto;
+  margin: 0 auto;
 
 }
 
@@ -320,6 +329,8 @@ form {
 table{
   border-collapse: collapse;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
