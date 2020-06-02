@@ -10,6 +10,10 @@
   text-align: center;
   padding: 50px 0 20px 0;
 }
+
+.clear {
+  clear: both;
+}
 /* nav */
 .bg_nav{
   width: 100%;
@@ -51,17 +55,34 @@
   text-align: right;
 }
 
-.hamburger_icon {
+.hamburger_icon{
   display: none;
+  line-height: 50px;
+  text-align: right;
+}
+
+.hamburger_icon i:hover .cascade_menu{
+  display: block;
+
+}
+
+.cascade_menu {
+  display:none;
+
 }
 
 @media all and ( max-width: 992px ) {
-  .hamburger_icon {
+  .hamburger_icon{
     display: block;
   }
   .nav_destra, .nav_centrale {
     display:none;
   }
+
+  .cascade_menu:hover {
+    display: block;
+  }
+
 }
 
 
@@ -168,7 +189,8 @@ form {
 
 
 .img_partners img {
-  padding: 30px;
+  padding: 30px 15px 30px 15px;
+  width: 136px;
 }
 
 .partners h4 {
@@ -211,6 +233,7 @@ form {
 
 .cluster_deployments , .one_click_apps , .optimized_compute , .global_availability {
   padding-right: 20px;
+  min-height: 240px;
 }
 
 .cluster_deployments h4, .one_click_apps h4, .optimized_compute h4, .global_availability h4 {
@@ -274,6 +297,7 @@ form {
 
 .feature_left,.feature_centre,.feature_right {
   min-height: 200px;
+  padding-right: 5%;
 }
 
 /* tabella */
