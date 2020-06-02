@@ -152,6 +152,11 @@ form {
   text-decoration: none;
 }
 
+.term_of {
+  text-align: center;
+  padding: 5px 0 20px 0;
+}
+
 
 /* partners */
 .partners {
@@ -278,23 +283,39 @@ form {
   color: white;
 }
 
+.dodiciregion h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .tabella {
   text-align: left;
   border-bottom: 1px solid white;
 }
 
-/* .dodiciregion tr {
-  width: 100%;
-  border-bottom: solid 2px white;
+table{
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
 
+
+.dodiciregion tr {
+  width: 100%;
+  border-bottom: 1px solid  white;
 }
 
 .dodiciregion tr td{
   padding: 5px;
   width:33.3%;
-  color: red;
+  color: lightgrey;
 
-} */
+}
+.dodiciregion tr td a{
+  color: #4eb4fd;
+  text-decoration: none;
+
+
+}
 
 
 /* carousel n2  */
@@ -322,7 +343,7 @@ form {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-  color: #4075ec;
+  color: #0066ff;
   text-decoration: none;
 
 }
@@ -340,10 +361,26 @@ form {
   padding: 50px 0 10px 0;
 }
 
+.logo_mark img{
+  width: 30px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
 .footer a {
   display:block;
   padding: 0 0 10px 0;
   color: lightblue;
   text-decoration: none;
 
+}
+
+.footer .social a {
+  display:inline-block;
+  padding:5px 5px 0 0;
+}
+
+.footer .social img {
+  width: 20px;
+  color: grey;
 }
